@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+data/raw/
+data/processed/
+*.mat
+!src/matlab_bridge/matlab_scripts/*.m
