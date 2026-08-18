@@ -1,13 +1,18 @@
 % compute_stats.m
+%    Validate that the Python feature extraction pipeline is 
+%    working correctly by running a one-way ANOVA test on the
+%    theta power of a single epoch via bandpower() and Python.
 % 
-%
-% Purpose:
-% 1. Check Python's welch-based theta band power against 
-%   MATLAB's bandpower() function on the same signal.
-%   This will validate that the the Python extraction pipeline
-%   is working correctly.
-% 2. Run a one-way ANOVA to test whether the theta power differs
-%    across different workload levels using the Python-built feature table.
+% Made for R2026a 
+% Inputs:
+%    -epo.fif file in data/processed folder
+%    theta_power_features.csv in data/processed folder
+% Outputs:
+%    ANOVA p-value, matlab_anova_results.csv
+
+% Author: Olivia Tobi Medeiros
+% Date of Finalization: August 18, 2026
+
 
 cd(fileparts(mfilename(fullfile('fullpath'))));
 dir = fullfile('..', '..', '..', 'data', 'processed');
