@@ -1,8 +1,15 @@
+
 # Pilot Cognitive Workload Monitor
 
 A neuroergonomics project: classifying cognitive workload level (low / medium / high) from and EEG headset, using signal processing techniques, cross-validated two different ways, cross-checked against MATLAB, and demonstrated through an interactive GUI.
 
 Built as a portfolio project connecting neuroengineering and aviation — the target framing is a pilot workload monitor, evaluated on a controlled N-back cognitive-load task.
+
+**GUI DEMO GIF**
+
+<img width="800" height="604" alt="guidemo" src="https://github.com/user-attachments/assets/0eedf320-4263-4b3b-bc5b-07cf193339de" />
+
+The full demo video can be accessed by going to the below:
 
 ![GUI demo](docs/screenshots/guidemo.mp4)
 See `docs/screenshots/`.
