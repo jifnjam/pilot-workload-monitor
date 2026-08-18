@@ -7,3 +7,4 @@ data/raw/
 data/processed/
 *.mat
 !src/matlab_bridge/matlab_scripts/*.m
+notebooks/05_cross_model_training.ipynb
